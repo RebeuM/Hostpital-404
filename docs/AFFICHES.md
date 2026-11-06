@@ -21,6 +21,8 @@ Licence : fournir des créations originales ou des éléments CC0 ; noter la sou
 - Couleurs du jeu : vert hôpital (#3f8a5c / #b9c8b5), papier jauni (#cfc2a5), encre (#1a1411), rouge tampon (#8c1711). Typo : Special Elite (machine à écrire) et Anton pour les titres, ou équivalent.
 - Textes obligatoires : les mentions en **gras** doivent être lisibles telles quelles, elles font partie des énigmes et du scénario.
 
+
+D
 ## Signalétique du couloir (plaques directionnelles, fond vert sombre, lettres claires)
 
 | Identifiant | Emplacement | L × H (m) | Ratio | Texte obligatoire | Style |
