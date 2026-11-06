@@ -1,0 +1,41 @@
+{
+  "name": "hospital404-react-3d",
+  "private": true,
+  "version": "3.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test src/game/game.test.mjs src/game/leaderboard.test.mjs",
+    "check:all": "node scripts/run-checks.mjs",
+    "check:browser": "node scripts/browser-check.mjs",
+    "check:screenshots": "node scripts/browser-screenshots.mjs",
+    "check:audio": "node scripts/browser-audio.mjs",
+    "check:voices": "node scripts/browser-voices.mjs",
+    "check:voices-all": "node scripts/browser-voices-all.mjs",
+    "check:mobile": "node scripts/browser-mobile.mjs",
+    "check:regressions": "node scripts/browser-regressions.mjs",
+    "check:playthrough": "node scripts/browser-playthrough.mjs",
+    "check:leaderboard": "node scripts/browser-leaderboard.mjs",
+    "check:perf": "node scripts/browser-perf.mjs"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.2.0",
+    "@react-three/drei": "^10.7.0",
+    "@react-three/fiber": "^9.3.0",
+    "@react-three/postprocessing": "^3.0.4",
+    "lucide-react": "^0.468.0",
+    "postprocessing": "^6.37.8",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "three": "^0.180.0",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.15",
+    "@vitejs/plugin-react": "^4.7.0",
+    "playwright": "^1.56.1",
+    "vite": "^6.3.6"
+  }
+}

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+.idea/
+docs/screenshots/run/
+raw/
+Objet3d/
+Lampe_Chirurgicale_Hopital_Abandonne_LowPoly.glb
+.vercel
+.env*.local
