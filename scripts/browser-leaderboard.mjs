@@ -1,4 +1,4 @@
-// Classement en ligne, dans un vrai navigateur : inscription, menu, erreurs, panne du serveur, téléphone.
+// Classement en ligne, dans un vrai navigateur : inscription menu, erreurs, panne du serveur, téléphone.
 // Prérequis : playwright installé ; serveur : npm run dev -- --port 5179 (base locale en mémoire, jamais la production).
 import {chromium} from 'playwright'
 const URL=process.env.URL||'http://localhost:5179/'
