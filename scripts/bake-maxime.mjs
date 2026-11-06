@@ -1,6 +1,6 @@
 // Prépare Maxime à partir de raw/teenage_boy.glb (barathudaya27, CC BY 4.0), riggé mais figé en T et sans animation :
 // transfère les clips de marche et de repos d'un autre personnage du jeu (person_jordan, CC0) vers son squelette.
-// Usage : serveur sur 5179, puis OUT=<fichier.glb> CHROMIUM=<chrome> node scripts/bake-maxime.mjs
+// Usage :serveur sur 5179, puis OUT=<fichier.glb> CHROMIUM=<chrome> node scripts/bake-maxime.mjs
 import {chromium} from 'playwright'
 import fs from 'fs'
 const browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM,args:['--ignore-gpu-blocklist','--enable-gpu','--js-flags=--max-old-space-size=4096']})
