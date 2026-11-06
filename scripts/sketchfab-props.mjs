@@ -2,7 +2,7 @@
 // normalise chaque modèle (sélection de nœuds, échelle en mètres, rotation Y, recentrage x/z, sol à y=0) puis le compresse.
 // Usage : node scripts/sketchfab-props.mjs <dossier-de-travail> [nom ...]
 //   Dépendances (hors projet, dans le dossier de travail) : npm i @gltf-transform/core @gltf-transform/extensions @gltf-transform/functions @gltf-transform/cli
-//   Sortie : public/assets/models/<name>.glb ; les boîtes englobantes sont à recopier dans src/game/modelBounds.js (getBounds sur le GLB final).
+//  Sortie : public/assets/models/<name>.glb ; les boîtes englobantes sont à recopier dans src/game/modelBounds.js (getBounds sur le GLB final).
 import fs from 'fs'
 import path from 'path'
 import os from 'os'
