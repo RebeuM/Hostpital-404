@@ -9,14 +9,18 @@ Jeu d'horreur et d'enquête en vue subjective, en 3D dans le navigateur. Thomas 
 | | |
 |---|---|
 | Jeu | **HOSPITAL 404 — Hôpital Charcot** |
-| Code de l'équipe | _À COMPLÉTER_ |
-| Nom de l'équipe | _À COMPLÉTER_ |
-| Campus | _À COMPLÉTER_ |
+| Code de l'équipe | MRS-C Hostpital 404 |
+| Nom de l'équipe | Groupe C |
+| Campus | Marseille |
 
 | Membre | Rôle |
 |---|---|
-| _À COMPLÉTER_ | _À COMPLÉTER_ |
-| _À COMPLÉTER_ | _À COMPLÉTER_ |
+| Carla | Chef de Projet |
+| Lucas.J | Développeur Gameplay & Scénariste |
+| Mohamed | Lead Développeur & Intégrateur |
+| Lokman | Développeur Gameplay & Game Designer |
+| Lucas.L | Développeur UI & Graphiste |
+| Dan | Développeur Audio & Passation |
 
 ## Jouer en 2 minutes
 
