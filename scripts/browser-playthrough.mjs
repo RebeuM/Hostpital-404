@@ -1,5 +1,5 @@
 // Partie complète, sans aucune téléportation : un robot marche avec les vraies commandes et les vraies collisions, ouvre les portes, lit les dialogues,
-// résout les quatre énigmes, prend la clé USB et fuit. Au clavier jusqu'à la bonne fin, au doigt jusqu'à la capture.
+// résout les quatre énigmes, prend la clé USB , fuit. Au clavier jusqu'à la bonne fin, au doigt jusqu'à la capture.
 // Un robot ne remplace pas un joueur : il prouve que rien ne bloque, pas que c'est lisible ni agréable.
 // Prérequis : playwright installé ; serveur : npm run dev -- --port 5179. Options : ONLY=clavier|doigt, OUT=<dossier de captures en cas d'échec>.
 import {chromium} from 'playwright'
