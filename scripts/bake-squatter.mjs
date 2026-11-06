@@ -1,6 +1,6 @@
 // Prépare le squatteur à partir de raw/homeless_man.glb (doublesob, CC BY 4.0), livré figé en T et sans squelette :
 // baisse les bras dans la géométrie, ajoute un petit squelette et une animation de repos, met le modèle à l'échelle (mètres, pieds à y=0).
-// Usage : serveur sur 5179, puis OUT=<fichier.glb> CHROMIUM=<chrome> node scripts/bake-squatter.mjs
+// Usage : serveur sur 5179, puis OUT=<fichier.glb> CHROMIUM=<chrome> node scripts/bake-squatter.mjs 
 import {chromium} from 'playwright'
 import fs from 'fs'
 const browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM,args:['--ignore-gpu-blocklist','--enable-gpu']})
