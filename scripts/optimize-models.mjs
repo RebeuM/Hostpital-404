@@ -1,7 +1,7 @@
 // Allège les modèles trop détaillés pour leur taille à l'écran (simplification meshoptimizer, erreur bornée) :
 // un carton à 4 000 triangles ou un meuble à 26 000 coûtaient autant qu'une pièce entière sur une petite carte graphique.
 // L'erreur est relative à la taille de chaque maillage (0,002 = 2 mm par mètre) : la silhouette et les UV ne bougent pas
-// à l'œil. Les textures ne sont pas réencodées ; la géométrie est recompressée en Draco.
+// à l'œil. Les textures ne sont pas réencodées ; la géométrie est recompressée en Draco. 
 // Usage : node scripts/optimize-models.mjs <dossier-de-travail> [entrée=public/assets/models] [sortie=même dossier]
 //   Dépendances dans le dossier de travail : npm i @gltf-transform/core @gltf-transform/extensions @gltf-transform/functions draco3dgltf meshoptimizer
 import fs from 'fs'
