@@ -1,6 +1,6 @@
 // Prépare le bras tenant la lampe : pose les doigts du rig « fps arms » (OpenGameArt, CC0), garde le bras droit,
 // fige la pose dans les sommets et exporte un GLB exprimé dans le repère de la lampe (mètres, optique vers -Z).
-// Usage : serveur sur 5179, puis SRC=<dossier extrait> OUT=<fichier.glb> CHROMIUM=<chrome> node scripts/bake-arm.mjs
+// Usage : serveur sur 5179, pui SRC=<dossier extrait> OUT=<fichier.glb> CHROMIUM=<chrome> node scripts/bake-arm.mjs
 import {chromium} from 'playwright'
 import fs from 'fs'
 const {SRC,OUT}=process.env
