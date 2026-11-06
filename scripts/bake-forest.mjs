@@ -1,6 +1,6 @@
 // Prépare les sapins de la forêt à partir du scan « fir_tree_01 » (Poly Haven, CC0) : 7,8 M de triangles inutilisables en jeu.
 // Sortie : un GLB léger par variante (tronc et branches réels, aiguilles remplacées par des plaques placées sur les vraies
-// branches) et un atlas d'images pour les arbres lointains.
+// branches) et un atlas d'images pour les arbres lointains. g
 // Usage : serveur sur 5179, puis SRC=<dossier du modèle> OUT=<dossier> CHROMIUM=<chrome> node scripts/bake-forest.mjs
 import {chromium} from 'playwright'
 import fs from 'fs'
