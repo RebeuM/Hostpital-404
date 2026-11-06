@@ -1,5 +1,5 @@
 // Vérification navigateur (Playwright) : chargement, erreurs console, ressources manquantes, captures du rendu 3D.
-// Prérequis : npx playwright install chromium ; serveur : npm run dev -- --port 5179
+// Prérequis : npx playwright install chromium ; serveur : npm run dev -- --port 5179 
 import {chromium} from 'playwright'
 // CHROMIUM=<chemin d'un Chrome/Chromium> permet d'utiliser un navigateur déjà installé (ex. ~/Library/Caches/ms-playwright/chromium-*/…).
 const browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM||undefined,args:['--ignore-gpu-blocklist','--enable-gpu']})
