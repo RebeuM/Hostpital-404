@@ -1,4 +1,4 @@
-// Mesure du niveau audio réellement envoyé à la sortie (analyseur Web Audio) pendant une partie, en Chromium headless.
+// Mesure  du niveau audio réellement envoyé à la sortie (analyseur Web Audio) pendant une partie, en Chromium headless.
 // Prérequis : npx playwright install chromium ; serveur : npm run dev -- --port 5179
 import {chromium} from 'playwright'
 // CHROMIUM=<chemin d'un Chrome/Chromium> permet d'utiliser un navigateur déjà installé (ex. ~/Library/Caches/ms-playwright/chromium-*/…).
