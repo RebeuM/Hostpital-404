@@ -6,11 +6,12 @@ Jeu d'horreur et d'enquête en vue subjective, en 3D dans le navigateur. Thomas 
 
 ## Titre et équipe
 
-| | |
-| Jeu | **HOSPITAL 404 — Hôpital Charcot** |
-| Code de l'équipe | MRS-C Hostpital 404 |
-| Nom de l'équipe | Groupe C |
-| Campus | Marseille |
+| Informations | Détails |
+|---|---|
+| **Jeu** | HOSPITAL 404 — Hôpital Charcot |
+| **Code de l'équipe** | MRS-C Hostpital 404 |
+| **Nom de l'équipe** | Groupe C |
+| **Campus** | Marseille |
 
 | Membre | Rôle |
 |---|---|
