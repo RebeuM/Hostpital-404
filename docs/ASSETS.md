@@ -9,6 +9,7 @@ Toutes les ressources ci-dessous sont publiées sous licence **CC0 1.0 Universal
 Aucune ressource n’est chargée depuis un serveur tiers pendant une partie : tout est servi depuis `public/assets/` (et le décodeur Draco depuis `public/draco/`, extrait de la bibliothèque three.js, licence MIT).
 
 ## Modèles 3D (Poly Haven, glTF → GLB optimisé)
+AH
 
 Transformation commune : `gltf-transform optimize --compress draco --texture-compress webp --texture-size 1024` (512 px pour les petits objets marqués *), ce qui produit un GLB unique par modèle avec géométrie Draco et textures WebP. Dimensions, échelle (mètres) et matériaux d’origine conservés.
 
