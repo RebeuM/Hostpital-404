@@ -2,7 +2,7 @@
 // Modèle à squelette sans animation : la danse est animée dans le jeu (src/components/Dancer.jsx).
 // Ici : pieds au sol à y = 0, centré, regard vers +z, puis compression Draco et textures WebP 512 px (vu de loin, derrière une voiture).
 // Puis : node scripts/optimize-models.mjs <dossier-de-travail> (le modèle passe de 72 800 à 16 700 triangles).
-// Usage : node scripts/bake-emmanuel.mjs <dossier-de-travail> [source.glb]
+// Usage : node scripts/bake-emmanuel.mjs <dossier-de-travail> [source.glb] h
 //   Dépendances dans le dossier de travail : npm i @gltf-transform/core @gltf-transform/extensions @gltf-transform/functions @gltf-transform/cli draco3dgltf sharp
 import fs from 'fs'
 import path from 'path'
